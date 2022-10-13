@@ -64,5 +64,5 @@ def _main2_():
     return average, standard_deviation
 
 result, uncertainty = _main2_()
-print(round(result), "+/-", uncertainty)
+print(round(result), "+/-", round(uncertainty))
 #--------------------------
