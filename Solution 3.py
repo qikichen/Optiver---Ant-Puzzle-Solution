@@ -62,4 +62,4 @@ def _main3_():
     return average, standard_deviation
 
 result, uncertainty = _main3_()
-print(round(result), "+/-", uncertainty)
+print(round(result), "+/-", round(uncertainty))
