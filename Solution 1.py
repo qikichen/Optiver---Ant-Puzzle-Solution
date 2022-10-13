@@ -51,7 +51,7 @@ def _main_():
 
          
 result, uncertainty = _main_()
-print(round(result), "+/-", uncertainty)
+print(round(result), "+/-", round(uncertainty))
 #------------------------------------     
 
 
